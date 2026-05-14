@@ -1,0 +1,9 @@
+chainlit
+langchain
+langgraph
+langchain-openai
+langchain-core
+httpx
+pydantic
+mcp
+anyio
