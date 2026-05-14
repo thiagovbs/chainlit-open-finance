@@ -19,13 +19,13 @@ from langchain_core.messages import HumanMessage
 # =====================================================================
 # CONFIGURAÇÕES (AI GATEWAY E MCP)
 # =====================================================================
-CUMBUCA_MCP_URL = os.environ.get("CUMBUCA_MCP_URL", "https://mcp.cumbuca.com/mcp")
+CUMBUCA_MCP_URL = os.environ.get("CUMBUCA_MCP_URL")
 
 # Configurações do seu AI Gateway (Substitua pelos seus dados reais)
-GATEWAY_TOKEN_URL = os.environ.get("GATEWAY_TOKEN_URL", "https://api-solutions-garage.sensedia.com/dev/ai/oauth/v1/access-token")
-GATEWAY_CLIENT_ID = os.environ.get("GATEWAY_CLIENT_ID", "3d6f28cf-91fa-43fa-9382-86005229574b")
-GATEWAY_CLIENT_SECRET = os.environ.get("GATEWAY_CLIENT_SECRET", "7e08865c-4810-4384-9605-ba5e9d01351d")
-GATEWAY_BASE_URL = os.environ.get("GATEWAY_BASE_URL", "https://solutions-garage-ai-gateway-lab.sensedia-eng.com/personal-finance-agent/") # URL base compatível com OpenAI
+GATEWAY_TOKEN_URL = os.environ.get("GATEWAY_TOKEN_URL")
+GATEWAY_CLIENT_ID = os.environ.get("GATEWAY_CLIENT_ID")
+GATEWAY_CLIENT_SECRET = os.environ.get("GATEWAY_CLIENT_SECRET")
+GATEWAY_BASE_URL = os.environ.get("GATEWAY_BASE_URL")
 MODELO_LLM = os.environ.get("MODELO_LLM", "gpt-5-nano")
 
 # Filtro de log do MCP (Mantido para limpar o terminal)
