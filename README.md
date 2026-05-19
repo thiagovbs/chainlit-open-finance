@@ -9,4 +9,4 @@ Este projeto é um assistente de IA para consultas financeiras utilizando LangGr
 3. Execute via Docker:
    ```bash
    docker build -t openfinance-bot .
-   docker run -p 8000:8000 --env-file .env openfinance-bot
+   docker run -p 8000:8000 openfinance-bot

@@ -5,5 +5,5 @@ langchain-openai
 langchain-core
 httpx
 pydantic
-mcp
+mcp==1.2.1
 anyio
